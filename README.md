@@ -20,4 +20,3 @@ Scripts stored in (Base Drive)/zapped/lua (Ex: C:/zapped/lua)
 Zapped Lua Discord: [https://discord.gg/nFerfq2CcR](https://discord.gg/nFerfq2CcR)
 
 Lua guide for new developers: [Learn Lua](http://tylerneylon.com/a/learn-lua/)
-test
