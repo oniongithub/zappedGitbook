@@ -2,9 +2,7 @@
 
 * [Useful Information](README.md)
 
-## Documentation <a href="documentation-1" id="documentation-1"></a>
-
-***
+## Documentation <a href="#documentation-1" id="documentation-1"></a>
 
 * [Documentation](documentation/README.md)
   * [Namespaces](documentation/namespaces/README.md)
@@ -47,7 +45,7 @@
     * [flags](documentation/enums/flags.md)
     * [hitboxes](documentation/enums/hitboxes.md)
     * [masks](documentation/enums/masks.md)
-    * [material_flags](documentation/enums/material_flags.md)
+    * [material\_flags](documentation/enums/material\_flags.md)
     * [stages](documentation/enums/stages.md)
 * [Examples](examples/README.md)
   * [GUI Example](examples/gui-example.md)

@@ -26,7 +26,7 @@ Sends a notification in the given color.
 | text     | string                        | +        |
 | color    | [color](../../types/color.md) | -        |
 
-### event_log
+### event\_log
 
 Logs to the event logger in the given color.
 
@@ -35,7 +35,7 @@ Logs to the event logger in the given color.
 | text       | string | +        |
 | in console | bool   | +        |
 
-### world_to_screen
+### world\_to\_screen
 
 Screen coordinates of an in game position.
 
@@ -43,7 +43,7 @@ Screen coordinates of an in game position.
 | -------- | ----------------------------------- | -------- |
 | position | [vector2d](../../types/vector2d.md) | +        |
 
-### set_clan_tag
+### set\_clan\_tag
 
 Changes your user's clantag.
 
@@ -51,7 +51,7 @@ Changes your user's clantag.
 | -------- | ------ | -------- |
 | clantag  | string | +        |
 
-### set_name
+### set\_name
 
 Changes your user's name.
 
@@ -59,7 +59,7 @@ Changes your user's name.
 | -------- | ------ | -------- |
 | name     | string | +        |
 
-### delay_call
+### delay\_call
 
 Calls function after waiting 'delay' in seconds.
 
@@ -72,20 +72,20 @@ Calls function after waiting 'delay' in seconds.
 
 Grabs the unix timestamp.
 
-### timezone_adjust
+### timezone\_adjust
 
 The offset for your computer's timezone.
 
-### format_timestamp
+### format\_timestamp
 
-Formats the given timestamp using [std::put_time](https://en.cppreference.com/w/cpp/io/manip/put_time).
+Formats the given timestamp using [std::put\_time](https://en.cppreference.com/w/cpp/io/manip/put\_time).
 
 | Argument  | Type   | Required |
 | --------- | ------ | -------- |
 | timestamp | number | +        |
 | format    | string | +        |
 
-### pattern_scan
+### find\_pattern
 
 Pointer to the given pattern in the module provided.
 
@@ -94,7 +94,7 @@ Pointer to the given pattern in the module provided.
 | module   | module  | +        |
 | pattern  | pattern | +        |
 
-### create_interface
+### create\_interface
 
 Pointer to the created interface.
 
