@@ -4,6 +4,7 @@
 
 ## Documentation <a href="#documentation-1" id="documentation-1"></a>
 
+* [Callbacks](documentation-1/callbacks.md)
 * [Documentation](documentation/README.md)
   * [Namespaces](documentation/namespaces/README.md)
     * [Zapped](documentation/namespaces/zapped/README.md)
@@ -26,7 +27,6 @@
       * [cvars](documentation/namespaces/cs-go/cvars.md)
       * [engine](documentation/namespaces/cs-go/engine.md)
       * [clientstate](documentation/namespaces/cs-go/clientstate.md)
-  * [Callbacks](documentation/callbacks.md)
   * [Types](documentation/types/README.md)
     * [usercmd](documentation/types/usercmd.md)
     * [esp](documentation/types/esp.md)

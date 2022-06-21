@@ -1,6 +1,6 @@
 # Callbacks
 
-## List of all callbacks: <a href="list-of-all-callbacks" id="list-of-all-callbacks"></a>
+## List of all callbacks: <a href="#list-of-all-callbacks" id="list-of-all-callbacks"></a>
 
 ## `on_command`
 
@@ -8,9 +8,9 @@ This callback will be executed on every command before it's processed.
 
 ### Parameters passed in callback:
 
-| Name | Type                        | Description           |
-| ---- | --------------------------- | --------------------- |
-| cmd  | [usercmd](types/usercmd.md) | pre-processed command |
+| Name | Type                                         | Description           |
+| ---- | -------------------------------------------- | --------------------- |
+| cmd  | [usercmd](../documentation/types/usercmd.md) | pre-processed command |
 
 ```lua
 function on_command(cmd)
@@ -24,9 +24,9 @@ This callback will be executed when a player's ESP is rendered.
 
 ### Parameters passed in callback:
 
-| Name | Type                | Description     |
-| ---- | ------------------- | --------------- |
-| ESP  | [esp](types/esp.md) | passed ESP type |
+| Name | Type                                 | Description     |
+| ---- | ------------------------------------ | --------------- |
+| ESP  | [esp](../documentation/types/esp.md) | passed ESP type |
 
 ```lua
 function on_esprender(esp)
@@ -44,9 +44,9 @@ This callback will be executed when a game event occurs.
 
 ### Parameters passed in callback:
 
-| Name  | Type                            | Description       |
-| ----- | ------------------------------- | ----------------- |
-| Event | [gameevent](types/gameevent.md) | passed game event |
+| Name  | Type                                             | Description       |
+| ----- | ------------------------------------------------ | ----------------- |
+| Event | [gameevent](../documentation/types/gameevent.md) | passed game event |
 
 ```lua
 function on_gameevent(event)
@@ -60,9 +60,9 @@ This callback will be executed at stages of preparation for each frame.
 
 ### Parameters passed in callback:
 
-| Name  | Type                     | Description       |
-| ----- | ------------------------ | ----------------- |
-| Stage | [stage](enums/stages.md) | passed stage enum |
+| Name  | Type                                      | Description       |
+| ----- | ----------------------------------------- | ----------------- |
+| Stage | [stage](../documentation/enums/stages.md) | passed stage enum |
 
 ```lua
 function on_framestagenotify(stage)
@@ -88,9 +88,9 @@ This callback will be executed when rendering a model.
 
 ### Parameters passed in callback:
 
-| Name  | Type                    | Description       |
-| ----- | ----------------------- | ----------------- |
-| Model | [model](types/model.md) | passed model type |
+| Name  | Type                                     | Description       |
+| ----- | ---------------------------------------- | ----------------- |
+| Model | [model](../documentation/types/model.md) | passed model type |
 
 ```lua
 function on_modelrender(model)
